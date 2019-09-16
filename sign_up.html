@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Typ hier je pincode</Title>
+
+  
+  <link rel = "stylesheet"
+   href = "style.css" type = "text/css" />
+<p><strong>Dit is mijn bank</strong></p>
+<label for="name">Name (4 to 8 characters):</label>
+</head> 
+
+<input type="text" id="name" name="name" required
+       minlength="8" maxlength="10" size="15">
+
+<form action="Formserver.html" method="get">
+  <label for="GET-name">Password</label>
+  <input id="GET-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<!-- Simple form which will send a POST request -->
+<!-- Form with fieldset, legend, and label -->
+<form action="sign_up.html" method="post">
+  <script src="script.js"></script>
+  <fieldset>
+    <legend>Click me 100 times to get reward.</legend>
+    <input type="radio" name="radio" id="radio">
+    <div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+  </fieldset>
+</form>
+
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+  </div>
+  <div class="form-example">
+    <input type="submit" action="#" value="Subscribe!">
+    <div class="form-example">
+      <label for="Pincode">Dit is mijn pincode</label>
+      <input type="number" name="number" alt="number">
+    </div>
+    <input class="Number"
+       type="button"
+       value="1 tot 10">
+     </div>
+
+  
+</form>
