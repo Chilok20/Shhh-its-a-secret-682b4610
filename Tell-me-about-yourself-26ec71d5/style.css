@@ -1,0 +1,12 @@
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+.test{
+    height:200px;
+    width:200px;
+}
